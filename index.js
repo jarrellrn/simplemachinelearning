@@ -11,3 +11,5 @@ network.train([
 ]);
 
 const result = network.run([1,0,0]);
+
+console.log(`Probability: ${output}`);
